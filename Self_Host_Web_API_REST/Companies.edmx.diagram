@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3f098b03f26840ecb295b46ec7d641a5" Name="Diagram1">
+        <EntityTypeShape EntityType="Web_Api_Company_EmployeesModel.Company" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_Api_Company_EmployeesModel.Employee" Width="1.5" PointX="4" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="Web_Api_Company_EmployeesModel.FK_WorksIn" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

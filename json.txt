@@ -1,0 +1,46 @@
+//CREATE
+ {
+    "Name": "Baumer",
+    "EstablishmentYear": 1997,
+    "Employees": [
+      {
+        "FirstName": "John",
+        "LastName": "Marston",
+        "DateOfBirth": "1889-04-05T00:00:00",
+        "JobTitle": "Architect"
+      },
+     {
+        "FirstName": "Carlos",
+        "LastName": "Montana",
+        "DateOfBirth": "1992-04-07T00:00:00",
+        "JobTitle": "Developer"
+      }
+    ]
+  }
+//SEARCH
+{
+    "Keyword": "",
+    "EmployeeDateOfBirthFrom": "",
+    "EmployeeDateOfBirthTo": "",
+    "EmployeeJobTitles": ["Architect"]
+}
+
+//UPDATE
+{
+    "Name": "HolaCola",
+    "EstablishmentYear": 1996,
+    "Employees": [
+      {
+        "FirstName": "Arthur",
+        "LastName": "Morgan",
+        "DateOfBirth": "1889-04-05T00:00:00",
+        "JobTitle": "Architect"
+      },
+     {
+        "FirstName": "Dutch",
+        "LastName": "Van der Linde",
+        "DateOfBirth": "1992-04-07T00:00:00",
+        "JobTitle": "Developer"
+      }
+    ]
+  }
